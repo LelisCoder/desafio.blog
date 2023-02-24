@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: rgb(245, 241, 241);
+    height: 100vh;
+}
+
+.header{
+    background: rgb(150,152,191);
+background: radial-gradient(circle, rgba(150,152,191,1) 64%, rgba(76,85,212,1) 89%);
+    text-align: center;
+    color:rgb(220, 224, 231);
+    font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar {
+    width: 40%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px 0 0 0;
+}
+
+.content{
+    width: 70%;
+    background: white;
+    padding: 30px;
+    margin: 20px;
+}
+
+li {
+    list-style: none;
+    border-radius: 20px;
+    background-color: rgb(86, 92, 155);
+    box-shadow: 6px 3px 3px black;
+    margin: 40px;
+    text-align: center;
+    padding: 5px 0;
+    border: solid 2px rgb(17, 16, 16);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+   }
+
+.p{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 30px 0 0 0;
+}
+
+.footer{
+    background: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sobre-mim{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border-radius: 50px 30px 20px 10px;
+}
+
+@media(max-width: 420px)
+{    .header{
+    font-size: 30px;
+    }
+    }
+
+h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10x;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.contatotxt {
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 10x;
+    color: black;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.voltar{
+    border: solid 1px rgb(5, 5, 5);
+    color: rgb(255, 247, 247);
+    background-color: black;
+    text-align: center;
+    padding: 11px;
+    width: 59px;
+    margin-left: 102px;
+}
+.redes-sociais {
+    list-style: none;
+    margin:auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: 300px;
+}
